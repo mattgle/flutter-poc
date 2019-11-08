@@ -25,6 +25,12 @@ class BookListState extends State<BookList> {
     return Center(
         child: Container(
             decoration: new BoxDecoration(
+                boxShadow: [
+                  new BoxShadow(
+                    color: Colors.grey,
+                    blurRadius: 0.1,
+                  ),
+                ],
                 color: Colors.white,
                 borderRadius: new BorderRadius.all(const Radius.circular(4))),
             margin: EdgeInsets.only(top: 10.0),
