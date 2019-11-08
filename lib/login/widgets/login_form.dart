@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../login.dart';
+import 'package:flutter_poc/home/home.dart';
 
 class LoginForm extends StatelessWidget {
   @override
@@ -26,7 +25,7 @@ class LoginForm extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Login()), // Add the real screen
+                    MaterialPageRoute(builder: (context) => Home()),
                   );
                 },
                 child: Text("Login"),
